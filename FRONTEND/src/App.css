@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  color: #1877f2;
+}
+
+.create-post {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+
+.caption-input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+}
+
+.caption-input:focus {
+  border-color: #1877f2;
+}
+
+.post-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  background: #1877f2;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.post-btn:hover {
+  transform: translateY(-2px);
+}
+
+.post-card {
+  background: white;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.post-image {
+  width: 100%;
+  display: block;
+}
+
+.post-content {
+  padding: 15px;
+}
+
+.post-caption {
+  font-size: 16px;
+  color: #333;
+}
+
+.post-footer {
+  margin-top: 12px;
+  display: flex;
+  gap: 15px;
+}
+
+.action-btn {
+  border: none;
+  background: #f3f4f6;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background: #e5e7eb;
+}
