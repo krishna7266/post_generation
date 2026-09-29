@@ -29,4 +29,12 @@ app.get("/posts", async (req,res)=>{
         posts
     })
 } )
+app.use((err, req, res, next) => {
+    console.error("ERROR:", err);
+
+    res.status(500).json({
+        message: "Backend error",
+        error: err.message
+    });
+});
 module.exports = app;
