@@ -5,7 +5,7 @@ const postModel = require("./models/post.model")
 const cors = require("cors")
 const app = express();
 app.use(cors({
-    origin: "https://post-generation-6ygm.onrender.com"
+    origin: "https://post-generation-1-xeag.onrender.com"
 }));;
 app.use(express.json());
 const upload = multer({storage: multer.memoryStorage()})
